@@ -51,8 +51,6 @@ public class VolleySeaCatActivity extends ActionBarActivity
             new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
-                    int len = response.length();
-                    if (len > 400) response = response.substring(0,400);
                     Log.i(LOG, "Response:\n"+response);
                 }
             },
