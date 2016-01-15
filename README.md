@@ -14,7 +14,7 @@ Client bridge depends on SeaCat client (SDK), please contact TeskaLabs support t
 ## The example
 
 ```java
-package mobi.seacat.eval.volleytest;
+package example;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -67,7 +67,7 @@ public class VolleySeaCatActivity extends ActionBarActivity
         queue.add(stringRequest);
     }
 
-    String LOG = "mobi.seacat.eval.volleytest";
+    String LOG = "example.volleytest";
 }
 ```
 
